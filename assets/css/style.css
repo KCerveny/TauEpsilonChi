@@ -1140,7 +1140,8 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url("../img/footer-bg.jpg") center center no-repeat;
+  background: url("../img/UT_Campus.jpg") center center no-repeat;
+  background-size: cover;
   color: #fff;
   font-size: 14px;
   position: relative;
@@ -1153,7 +1154,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(26, 46, 64, 0.85);
+  background: rgba(26, 46, 64, 0.15); /* This is the transparent color filter over the above image for footer background */
   z-index: 1;
 }
 
