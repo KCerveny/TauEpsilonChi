@@ -359,7 +359,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #d2e0ed;
+  color: whitesmoke;
   font-family: "Poppins", sans-serif;
 }
 
@@ -427,7 +427,7 @@ section {
 }
 
 .section-bg {
-  background: linear-gradient(180deg, #f2f6fa 0%, #fff 100%);
+  background: linear-gradient(180deg, #FCF8F3 0%, #fff 100%);
 }
 
 .section-title {
@@ -1249,7 +1249,7 @@ section {
 }
 
 #footer .footer-bottom {
-  border-top: 1px solid #1a2e40;
+  border-top: 0 px solid #1a2e40;
   z-index: 2;
   position: relative;
   padding-top: 40px;
