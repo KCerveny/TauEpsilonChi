@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #fdc134;
+  color: #cc5500;
 }
 
 a:hover {
@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top:hover {
   color: #fff;
-  background: #fdc134;
+  background: #cc5500;
 }
 
 /*--------------------------------------------------------------
@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway",sans-serif;
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo h1 a span, #header .logo h1 a:hover span {
-  color: #fdc134;
+  color: #cc5500;
 }
 
 #header .logo img {
@@ -117,11 +117,11 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #adc7de;
+  color: gainsboro;
   padding: 10px 15px;
   transition: 0.3s;
-  font-size: 14px;
-  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -135,11 +135,11 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   margin: 2px 0 0 15px;
   padding: 4px 25px 6px 25px;
-  border: 2px solid #fdc134;
+  border: 2px solid #cc5500;
 }
 
 .nav-menu .get-started a:hover {
-  background: #fdc134;
+  background: #cc5500;
   color: #213b52;
 }
 
@@ -177,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #fdc134;
+  color: #cc5500;
 }
 
 .nav-menu .drop-down > a:after {
@@ -237,7 +237,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #fdc134;
+  color: #cc5500;
 }
 
 .mobile-nav {
@@ -273,7 +273,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #fdc134;
+  color: #cc5500;
   text-decoration: none;
 }
 
@@ -312,7 +312,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav .get-started a:hover {
-  background: #fdc134;
+  background: #cc5500;
   color: #213b52;
 }
 
@@ -388,10 +388,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #213b52;
   border-radius: 50px;
   padding: 8px 35px 10px 35px;
-  border: 2px solid #fdc134;
+  border: 2px solid #ED6200;
   transition: all ease-in-out 0.3s;
   display: inline-block;
-  background: #fdc134;
+  background: #ED6200;
+  font-family: "Rubik";
 }
 
 #hero .btn-get-started:hover {
@@ -442,7 +443,7 @@ section {
 }
 
 .section-bg {
-  background: linear-gradient(180deg, #FCF8F3 0%, #fff 100%);
+  background: linear-gradient(180deg, #fff8ee 0%, #fff 100%);
 }
 
 .section-title {
@@ -478,7 +479,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #fdc134;
+  background: #cc5500;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -548,13 +549,20 @@ section {
 }
 
 .about .content .icon-box h4 a:hover {
-  color: #fdc134;
+  color: #cc5500;
 }
 
 .about .content .icon-box i {
   font-size: 48px;
   float: left;
-  color: #fdc134;
+  color: #cc5500;
+}
+#about .read-more a {
+  color: #777777;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  transition: 0.3s;
 }
 
 .about .content .icon-box p {
@@ -628,16 +636,17 @@ section {
   color: #5e5e5e;
 }
 
-.services .read-more a {
+#give *{
   color: #777777;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 12px;
   transition: 0.3s;
+  padding: 6px;
 }
 
 .services .read-more a:hover {
-  color: #fdc134;
+  color: #cc5500;
 }
 
 .services .card:hover img {
@@ -645,11 +654,11 @@ section {
 }
 
 .services .card:hover .card-body {
-  border-color: #fdc134;
+  border-color: #cc5500;
 }
 
 .services .card:hover .card-body .card-title a {
-  color: #fdc134;
+  color: #cc5500;
 }
 
 /*--------------------------------------------------------------
@@ -677,7 +686,7 @@ section {
 .features .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #fdc134;
+  color: #cc5500;
 }
 
 .features .content p:last-child {
@@ -712,7 +721,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #fdc134;
+  color: #cc5500;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -755,7 +764,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #fdc134;
+  color: #cc5500;
   font-size: 24px;
   line-height: 1;
   text-align: center;
@@ -847,7 +856,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #fdc134;
+  color: #cc5500;
 }
 
 .team .member .social i {
@@ -876,7 +885,7 @@ section {
   position: absolute;
   top: -11px;
   left: calc(50% - 49px);
-  background: #fdc134;
+  background: #cc5500;
   color: #fff;
   text-align: center;
   line-height: 1;
@@ -894,7 +903,7 @@ section {
 
 .pricing h4 {
   font-size: 46px;
-  color: #fdc134;
+  color: #cc5500;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 25px;
@@ -919,7 +928,7 @@ section {
 }
 
 .pricing ul i {
-  color: #fdc134;
+  color: #cc5500;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -950,17 +959,17 @@ section {
 }
 
 .pricing .get-started-btn:hover {
-  background: #fdc134;
+  background: #cc5500;
 }
 
 .pricing .featured {
   z-index: 10;
   margin: -30px -5px 0 -5px;
-  border: 1px solid #fdc134;
+  border: 1px solid #cc5500;
 }
 
 .pricing .featured .get-started-btn {
-  background: #fdc134;
+  background: #cc5500;
 }
 
 .pricing .featured .get-started-btn:hover {
@@ -1031,7 +1040,7 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #fdc134;
+  color: #cc5500;
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #fff7e5;
@@ -1110,7 +1119,7 @@ section {
 }
 
 .contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
-  background-color: #fdc134;
+  background-color: #cc5500;
 }
 
 .contact .php-email-form input {
@@ -1122,7 +1131,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #fdc134;
+  background: #cc5500;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1227,7 +1236,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #fdc134;
+  background: #cc5500;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
