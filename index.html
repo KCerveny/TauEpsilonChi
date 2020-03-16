@@ -62,22 +62,24 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero">
-        <video autoplay muted loop id="Highlights">
-          <source src="assets/img/IntroVid.mp4" type="video/mp4">
-        </video>
-        <div class="container">
-          <div class="row d-flex align-items-center"">
-            <div class=" col-lg-6 py-5 py-lg-0 order-2 order-lg-1" data-aos="fade-right">
-              <h1>Welcome to the new generation of Greek Life.</h1>
-              <h2>Doing fraternity the right way</h2>
-              <a href="#about" class="btn-get-started scrollto">Check Us Out</a>
-            </div>
-            <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" style="height:85vh;">
-              <!--img src="assets/img/hero-img.png" class="img-fluid" alt=""-->
-            </div>
-          </div>
+  <section id="hero" class="">
+    <!-- Video does not display on mobile -->
+    <video autoplay muted loop class="mobile-hide" id="Highlights">
+      <source src="assets/img/IntroVid.mp4" type="video/mp4">
+    </video>
+    <!--img id="mobile-back" class="deskt-hide" src="assets/img/HappyDevon.jpg" alt="Smiling"-->
+    <div class="container">
+      <div class="row d-flex align-items-center"">
+        <div class=" col-lg-6 py-5 py-lg-0 order-2 order-lg-1" data-aos="fade-right">
+          <h1>Welcome to the new generation of Greek Life.</h1>
+          <h2>Doing fraternity the right way.</h2>
+          <a href="#about" class="btn-get-started scrollto">Check Us Out</a>
         </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" style="height:85vh">
+          <!--img src="assets/img/hero-img.png" class="img-fluid" alt=""-->
+        </div>
+      </div>
+    </div>
   </section><!-- End Hero -->
 
   <main id="main">
@@ -239,7 +241,7 @@
                 <h5 class="card-title"><a href="">Socials</a></h5>
                 <p class="card-text">A tradition from our founding, each semester all of the members and candidates go on an overnight trip away from campus. At retreat, the goal is to have a low stress weekend and connect with your Brothers.
                   Low-tech, old fashioned fun enjoying eachother's company.</p>
-                  <div class="read-more"><a href="#"><i class="icofont-arrow-right"></i> Request a Mixer</a></div>
+                  <div class="read-more"><a href="#"><i class="icofont-arrow-right"></i>Schedule a Mixer</a></div>
               </div>
             </div>
           </div>
@@ -555,10 +557,12 @@
                 </div>
               </div>
               <div class="col-md-6">
-                <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="info-box mt-4" id="snap-box" data-aos="fade-up" data-aos-delay="100">
                   <i class='bx bxl-snapchat'></i>
                   <h3>TEX Snap</h3>
-                  <p>Join for TEX Events<br><b>@texatxsocial</b></p>
+                  <p>Join for TEX Events</p>
+                  <img id="snap" src="assets/img/TEX_snap.PNG" alt="Tex_Party_Snap">
+                  <p><b>@texatxsocial</b></p>
                 </div>
               </div>
             </div>
@@ -611,6 +615,7 @@
         <div class="row  justify-content-center">
           <div class="col-lg-6">
             <h3>Tau Epsilon Chi</h3>
+            <h4>TEX</h4>
             <p>Changing Greek Life for Good &trade;</p>
           </div>
         </div>
@@ -628,7 +633,6 @@
           <a href="https://www.instagram.com/utaustintex/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
           <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         </div>
-
       </div>
     </div>
 
@@ -641,7 +645,7 @@
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bocor-bootstrap-template-nice-animation/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Framework by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
   </footer><!-- End Footer -->
